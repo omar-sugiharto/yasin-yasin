@@ -1,0 +1,59 @@
+a.navbar-brand small {
+	font-size: 15px;
+	display: block;
+	font-weight: bolder;
+	margin-bottom: -10px;
+	transition: 500ms;
+}
+
+.awake a.navbar-brand small {
+	font-size: 14px;
+	transition: 500ms;
+}
+
+.hero-wrap .slider-text .one-forth .text {
+	background: rgba(53, 50, 100, 0.8);
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.hero-wrap .slider-title {
+    height: 350px!important;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.hero-wrap .slider-text p, .hero-wrap .slider-text label {
+	color: rgb(255, 255, 255)
+}
+
+.star{
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.btn-link.home-link {
+    color: white!important;
+}
+
+@media (max-width: 991px) {
+	.hero-wrap .slider-text .one-forth .text {
+		width: 100%!important;
+	}
+
+	.hero-wrap .slider-title {
+	    height: 250px!important;
+	    z-index: 0;
+	    overflow: hidden;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.hero-wrap .slider-text .one-forth .title {
+		left: 30%;
+		right: 30%;
+		position: absolute;
+        top: 15%;
+	}
+}
